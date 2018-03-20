@@ -15,5 +15,5 @@ legend("topright", legend=colnames(df[7:9]),
 plot(df$Datetime, df$Voltage, type = "l", ylab = "Global Active Power", xlab = "")
 plot(df$Datetime, df$Global_reactive_power, type = "l", ylab = "Global Active Power", xlab = "")
 
-dev.copy(png, file="ExData_Plotting1/plot4.png")
+dev.copy(png, file="ExData_Plotting1/plot4.png",width=480, height=480)
 dev.off()

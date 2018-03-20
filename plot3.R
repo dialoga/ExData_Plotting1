@@ -9,5 +9,5 @@ lines(df$Datetime, df$Sub_metering_3, type="l",col="blue")
 legend("topright", legend=colnames(df[7:9]),
        col=c("black", "red", "blue"), lty=1, cex=0.6)
 
-dev.copy(png, file="ExData_Plotting1/plot3.png")
+dev.copy(png, file="ExData_Plotting1/plot3.png",width=480, height=480)
 dev.off()
